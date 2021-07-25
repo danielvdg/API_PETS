@@ -4,6 +4,7 @@ const cors = require('cors')
 const bd = require('./src/data/sqlite-bd')
 const port = 3000
 const app = express()
+const port = process.env.PORT
 
 const dogsController =require('./src/controllers/dogsControllers')
 
