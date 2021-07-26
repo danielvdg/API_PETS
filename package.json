@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node ./servidor.js"
+    "start": "node ./servidor.js",
+    "dev": "nodemon ./servidor.js"
   },
   "keywords": [],
   "author": "",
